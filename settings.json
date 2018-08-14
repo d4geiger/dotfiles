@@ -1,0 +1,10 @@
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "python.pythonPath": "C:\\py3\\python.exe",
+    "editor.rulers": [
+        80
+    ],
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom"
