@@ -16,8 +16,10 @@ general {
     color_bad = '#e89393'
 }
 
-order += "volume master"
+
 order += "disk /"
+order += "cpu_usage 0"
+order += "load"
 #order += "disk /data"
 #order += "disk /home"
 #order += "run_watch DHCP"
@@ -26,11 +28,9 @@ order += "disk /"
 order += "wireless wlp3s0"
 #order += "ethernet enp5s0"
 #order += "cpu_temperature 0"
-order += "cpu_usage 0"
-order += "load"
-order += "battery 0"
 order += "tztime local"
-
+order += "volume master"
+order += "battery 0"
 wireless wlp3s0 {
     format_up = "%quality  %essid %ip"
     format_down = "W: down"

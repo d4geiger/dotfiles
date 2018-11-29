@@ -26,6 +26,11 @@ font pango:DejaVu Sans Mono 8
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+#Startup
+exec --no-startup-id nm-applet
+exec blueberry-tray
+
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
@@ -165,9 +170,6 @@ bar {
     urgent_workspace #d33682 #d33682 #fdf6e3
   }
 }
-#Startup
-exec --no-startup-id nm-applet
-
 # Pulse Audio controls
 
 #bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
