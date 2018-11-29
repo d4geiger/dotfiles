@@ -29,7 +29,7 @@ font pango:DejaVu Sans Mono 8
 #Startup
 exec --no-startup-id nm-applet
 exec blueberry-tray
-
+exec feh --bg-fill ~/Pictures/Wallpapers/Background.jpg
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
