@@ -165,6 +165,8 @@ bar {
     urgent_workspace #d33682 #d33682 #fdf6e3
   }
 }
+#Startup
+exec --no-startup-id nm-applet
 
 # Pulse Audio controls
 
